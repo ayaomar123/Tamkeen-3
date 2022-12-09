@@ -1,0 +1,138 @@
+body {
+    margin: 50px 150px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    color: gray;
+}
+
+li a.active {
+    color: black;
+    background-color: white;
+}
+
+.nav {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.row,
+.article {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    width: 65%;
+}
+
+.right {
+    width: 30%;
+    background-color: #1e1e2c;
+    /* background-image: linear-gradient(45deg, black, gray); */
+}
+
+.main-img {
+    background-image: url("./img/product1.jpg");
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center
+}
+
+.item {
+    width: 50%;
+}
+
+.h2 {
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+
+.mt {
+    margin-top: 60px;
+}
+
+.margin {
+    margin: 0 20px;
+}
+
+.h2-new {
+    font-size: 40px;
+    color: orange;
+}
+
+.h2-white {
+    color: white;
+}
+
+.button {
+    background-color: rgb(235, 82, 82);
+    color: white;
+    border: 1px solid rgb(235, 82, 82);
+    padding: 15px 40px;
+    text-transform: uppercase;
+}
+
+.white {
+    color: white;
+    font-weight: normal;
+}
+
+.top {
+    margin-top: 20px;
+}
+
+.img-article {
+    width: 30%;
+    height: 150px;
+    margin-right: 10px;
+    object-fit: cover;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+.text-article {
+    margin-right: 10px;
+}
+
+.gray {
+    color: lightgray;
+}
+
+.p {
+    color: lightslategray;
+}
